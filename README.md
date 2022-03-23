@@ -1,13 +1,13 @@
-# LSP web extension Example
-
+# ossillate_plugin
+# A modification of the LSP web extension Example repository (https://github.com/LucasZhang58/vscode-extension-samples/tree/main/lsp-web-extension-sample)
 A LSP server that runs in a web extension
 
 ## Functionality
 
-This Language Server add color decorators to plain text files.
+This Language Server add color decorators to python files instead of plain text files.
 
-- create a plain text file
-- enter text that contains colors in hex format (#rrggbb)
+- create a python file
+- enter text that contains colors in the format (prrggbb) rather than (#rrggbb)
 - color decorators
 
 
@@ -35,7 +35,7 @@ It also includes an End-to-End test.
 - Select `Launch Client` from the drop down.
 - Run the launch config.
 - If you want to debug the server as well use the launch configuration `Attach to Server`
-- In the [Extension Development Host] instance of VSCode, open a document in 'plain text' language mode.
-  - Type #00ff00 or any other color in hex format
+- In the [Extension Development Host] instance of VSCode, open a document in 'python' language mode.
+  - Type p00ff00 or any other color in hex format
   - color decorators will appear
-# ossillate_plugin
+
