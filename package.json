@@ -22,7 +22,7 @@
 	"browser": "./client/dist/browserClientMain",
 	"contributes": {
 		"capabilities": {
-			"hoverProvider": "contributes"
+			"hoverProvider": "true"
 		},
 		"configuration": [
 			{
