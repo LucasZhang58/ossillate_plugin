@@ -21,6 +21,9 @@
 	],
 	"browser": "./client/dist/browserClientMain",
 	"contributes": {
+		"capabilities": {
+			"hoverProvider": "contributes"
+		},
 		"configuration": [
 			{
 				"order": 22,
